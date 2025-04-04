@@ -10,29 +10,32 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBigText"
         android:layout_width="411dp"
-        android:layout_height="wrap_content"
+        android:layout_height="400px"
         android:backgroundTint="#387CF4"
         android:text="Powiadomienie z długim tekstem"
+        app:cornerRadius="@dimen/cardview_default_radius"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="172dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnBigPicture"
         android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F56046"
+        android:layout_height="400px"
+        android:backgroundTint="#87CA2A"
         android:text="Powiadomienie z obrazem"
+        app:cornerRadius="@dimen/cardview_default_radius"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="251dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnInbox"
         android:layout_width="411dp"
-        android:layout_height="wrap_content"
+        android:layout_height="400px"
         android:backgroundTint="#F3305E"
         android:text="Powiadomienie z wieloma liniami tekstu"
+        app:cornerRadius="@dimen/cardview_default_radius"
         tools:layout_editor_absoluteX="173dp"
         tools:layout_editor_absoluteY="331dp" />
 </android.widget.LinearLayout>
